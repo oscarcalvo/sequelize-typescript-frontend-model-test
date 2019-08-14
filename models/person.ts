@@ -6,6 +6,6 @@ export class Person extends Model<Person> {
     public name: string
 
     public validateName(): boolean {
-        return this.name === this.name && this.name.length > 0
+        return this.name && this.name.length > 0
     }
 }
