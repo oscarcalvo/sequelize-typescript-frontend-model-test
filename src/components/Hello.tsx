@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Button } from './Button'
 import {Person} from './../../models/person'
+import { Car } from '../../models/car'
 interface HelloProps {
     compiler: string
     framework: string
@@ -17,6 +18,11 @@ export class Hello extends React.Component<HelloProps, HelloState> {
         this.state = {
             showButton: false
         }     
+        const car=new Car()
+        car.name="Ford"
+        console.log(car.name)
+        console.log("Validation:"+car.validateObject())
+
         const person=  new Person()
         person.name="John"
         console.log(person.name)
