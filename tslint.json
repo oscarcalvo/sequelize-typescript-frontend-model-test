@@ -15,7 +15,8 @@
         "no-submodule-imports": false,
         "no-implicit-dependencies": [true, "dev"],
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "prefer-const": false
     },
     "rulesDirectory": []
 }

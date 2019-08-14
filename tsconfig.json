@@ -7,7 +7,7 @@
         "module": "commonjs",
         "moduleResolution": "node",
         "noImplicitAny": true,
-        "target": "es5",
+        "target": "es6",
         "sourceMap": true,
         "removeComments": true,
         "noStrictGenericChecks": true,

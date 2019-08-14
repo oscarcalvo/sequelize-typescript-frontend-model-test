@@ -23,9 +23,7 @@ export class Hello extends React.Component<HelloProps, HelloState> {
         console.log(car.name)
         console.log("Validation:"+car.validateObject())
 
-        const person=  new Person()
-        person.name="John"
-        console.log(person.name)
+        let person=  new Person()      
         console.log("Validation:"+person.validateName())
     }
 
